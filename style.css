@@ -28,7 +28,7 @@ ul li{
     margin: 25px;
     text-transform: uppercase;
 }
-ul li a{
+ul li a, a{
     text-decoration: none;
     color: black;
 }
@@ -43,4 +43,82 @@ header{
     display: flex;
     font-size: larger;
     background-image: url("./524600-aubergines-bio.jpg");
+}
+main{
+    height: 700px;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.container{
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.container p{
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+.row{
+    display: flex;
+
+}
+main .card{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(52, 197, 202);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.card p{
+    font-size: x-large;
+    text-transform: uppercase;
+}
+footer{
+    height: 100px;
+    background-color: rgb(58, 86, 87);
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    display: flex;
+    font-size: x-large;
+    color: cornsilk;
+}
+.form{
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.form table tr{
+    margin: 30px 0;
+}
+.submit{
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.submit:hover{
+    background-color: rgb(26, 29, 28);
+    color: rgb(95, 148, 130);
 }
