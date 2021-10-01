@@ -32,3 +32,15 @@ ul li a{
     text-decoration: none;
     color: black;
 }
+header{
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: rgb(41, 39, 35);
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    display: flex;
+    font-size: larger;
+    background-image: url("./524600-aubergines-bio.jpg");
+}
