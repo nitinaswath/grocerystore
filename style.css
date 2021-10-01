@@ -28,4 +28,7 @@ ul li{
     margin: 25px;
     text-transform: uppercase;
 }
-u
+ul li a{
+    text-decoration: none;
+    color: black;
+}
